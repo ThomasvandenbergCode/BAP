@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>opdracht4</title>
+
+<body>
+
+    <form action="readform.php" method="post">
+        <fieldset>
+<legend>persoonsgegevens</legend>
+        <label for="voornaam">voornaam:</label>
+        <input type="text" id="voornaam" name="voornaam" required/>
+        <label for="tussenvoegsel">tussenvoegsel:</label>
+        <input type="text" id="tussenvoegsel" name="tussenvoegsel"/>
+        <label for="achternaam">achternaam:</label>
+        <input type="text" id="achternaam" name="achternaam" required/>
+        <br>
+        <br>
+        <br>
+
+        <label>leeftijd:<input type="number" name="age" value=""></label> <br>
+        <label>woonplaats:<input type="text" name="woonplaats"></label>
+
+               <p>geslacht:</p>
+        <label><input type = "radio" name = "geslacht" value = "man" required="required"> man</label>
+        <label><input type = "radio" name = "geslacht" value = "vrouw" required="required"> vrouw</label>
+
+        </fieldset>
+        <br>
+        <br>
+
+
+
+
+          <fieldset> <legend>schoolgegevens</legend>
+
+        <label><select name="klas" required>
+            <option value="">Kies je klas</option>
+            <option value="MG1A">MG1A</option>
+            <option value="MG1B">MG1B</option>
+            <option value="MG1C">MG1C</option>
+            <option value="MG1D">MG1D</option>
+        </select></label>
+
+              <p> wat voor cijfer geef je jou opleiding tot zo ver?</p>
+
+              <label><input type = "radio" name = "cijferOpleiding" value = "1" required="required"> 1</label>
+              <label><input type = "radio" name = "cijferOpleiding" value = "2" required="required"> 2</label>
+              <label><input type = "radio" name = "cijferOpleiding" value = "3" required="required"> 3</label>
+              <label><input type = "radio" name = "cijferOpleiding" value = "4" required="required"> 4</label>
+              <label><input type = "radio" name = "cijferOpleiding" value = "5" required="required"> 5</label>
+              <label><input type = "radio" name = "cijferOpleiding" value = "6" required="required"> 6</label>
+              <label><input type = "radio" name = "cijferOpleiding" value = "7" required="required"> 7</label>
+              <label><input type = "radio" name = "cijferOpleiding" value = "8" required="required"> 8</label>
+              <label><input type = "radio" name = "cijferOpleiding" value = "9" required="required"> 9</label>
+              <label><input type = "radio" name = "cijferOpleiding" value = "10" required="required"> 10</label>
+
+
+          </fieldset>
+        <input type="submit" name="submit" value="lekker klikken!"/>
+    </form>
+    <footer>
+        <div id="validatie">
+            <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
